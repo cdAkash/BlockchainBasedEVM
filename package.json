@@ -1,0 +1,36 @@
+{
+  "name": "protoevm",
+  "version": "1.0.0",
+  "description": "blockchain based voting system",
+  "main": "index.js",
+  "scripts": {
+    "result":"node result.js",
+    "vote":"node ledgerpollinit.js",
+    "deploy":"npx hardhat run scripts/deploy.js --network SepoliaETH "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just4kick/BlockchainBasedVotingSystem.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "secure squad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/just4kick/BlockchainBasedVotingSystem/issues"
+  },
+  "homepage": "https://github.com/just4kick/BlockchainBasedVotingSystem#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "figlet": "^1.7.0",
+    "hardhat": "2.22.3",
+    "inquirer": "^9.2.21",
+    "just4kick": "^1.2.1",
+    "prompt-sync": "^4.2.0",
+    "serialport": "^9.2.8"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+  }
+}
